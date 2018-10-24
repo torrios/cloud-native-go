@@ -115,7 +115,7 @@ kubectl cluster-info
 
 A "Pod" represents either a single container or set of containers but I believe that the best practice is to deploy a container per Pod.
 
-One way of deploying resources in Kubernetes is via a YAML configuration file. We a "Pod" we can use the
+One way of deploying resources in Kubernetes is via a YAML configuration file. For our "Pod" we can use the file,
 
 ```text
 k8s-pod.yml
